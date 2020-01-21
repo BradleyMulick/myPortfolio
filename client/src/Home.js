@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './home.css'
 import './buttons.css'
+import Typing from 'react-typing-animation';
 import { SRLWrapper } from "simple-react-lightbox";
 
 
@@ -15,12 +16,23 @@ const Home = () => {
                     
             <div className="front-container">
                 <div class="typewriter">
-                    <h1>Hello world! </h1>
+                    
+                    <Typing>
+                        <h1 className="title-text">
+                            Hello world! <br/>
+                            My name is Bradley Mulick
+                        </h1>
+                    </Typing> 
                     
                     
-                    <a href="#work-display"><button class="button-three">My Work</button></a>
+                    <a href="#work-display"><button class="button-three">Past Work</button></a>
                     <a href="/about"><button class="button-three">My Skills</button></a>
-                    <h1 >I'm Bradley Mulick</h1>
+                    <Typing>
+                        <div>
+                            <Typing.Delay ms={3330} />
+                            <h1 className="title-text">I'm a Web Developer</h1>
+                        </div>
+                    </Typing>
                     
                     
                     
