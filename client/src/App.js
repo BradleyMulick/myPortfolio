@@ -12,8 +12,8 @@ import SimpleReactLightbox from "simple-react-lightbox"; // Import Simple React 
 function App() {
   return (
     <div className="App">
-      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <Navbar />
+      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <SimpleReactLightbox >
       <Switch>
         <Route exact path="/" component={Home} />

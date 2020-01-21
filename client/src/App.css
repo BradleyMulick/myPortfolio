@@ -1,10 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
 body {
     display: inline-block;
     text-align: center;
     width: 100%;
     height: 100%;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
-   
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+}
+
+.about { 
+  width: 100%;
+  overflow: hidden;
 }
 
 /* social links >>>>>>>> */
@@ -27,18 +44,20 @@ body {
 /* Individual item */
 .bm-item {
   display: inline-block;
-
+  border: none;
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
   color: black;
   transition: color 0.2s;
+  
 }
 
 /* Change color on hover */
 .bm-item:hover {
   color: white;
 }
+
 
 /* The rest copied directly from react-burger-menu docs */
 
@@ -71,7 +90,10 @@ body {
 .bm-menu {
   background: lightskyblue;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: 2.15em;
+  width: 100%;
+  
+  
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -88,20 +110,23 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-
+ 
 
 /* media queries for sidebar */
 
 @media only screen and (max-width: 600px) {
   .bm-menu {
     background: lightskyblue;
-    padding: 05px;
+    padding: 0px;
     font-size: 1.15em;
+    
   }
   .menu-item {
     display: inline-block;
-    padding: 15px;
-    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-left: 10px ;
+    padding-right: 10px ;
     /* Our sidebar item styling */
     text-decoration: none;
     margin-bottom: 10px;
@@ -109,6 +134,14 @@ body {
     transition: color 0.2s;
   }
 
+  .bm-burger-button {
+    position: fixed;
+    width: 60px;
+    height: 30px;
+    left: 20px;
+    top: 20px;
+  }
+  
 }
 
 

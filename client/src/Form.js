@@ -11,13 +11,13 @@ export default class extends React.Component {
   render() {
 	return (
   	<form className="test-mailing">
-    	<h1>Send me an message! <br/> Please include your email or phone number</h1>
+    	<h1>Contact me! <br/>Include an email or phone number <br/> for a response</h1>
     	<div>
       	<textarea
         	id="test-mailing"
         	name="test-mailing"
         	onChange={this.handleChange}
-        	placeholder="Post some lorem ipsum here"
+        	placeholder="Your messsage here....."
         	required
         	value={this.state.feedback}
         	style={{width: '100%', height: '150px'}}

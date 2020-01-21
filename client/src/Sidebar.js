@@ -3,13 +3,13 @@ import { bubble as Menu } from "react-burger-menu";
 
 export default props => {
   return (
-    <Menu width={ '10%' } {...props}>
+    <Menu disableAutoFocus width={ '33%' } {...props}>
       <a className="menu-item" href="/">
         Home
       </a>
       
       <a className="menu-item" href="/#work-display">
-        Work
+        Projects
       </a>
 
       <a className="menu-item" href="/about">
