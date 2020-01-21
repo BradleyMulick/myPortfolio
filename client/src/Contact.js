@@ -1,14 +1,12 @@
 import React from 'react'
-import Lightbox from './Lightbox'
+import Form from './Form'
 
 
-const About = () => {
+const Contact = () => {
     return (
         <div className="about">
             <div className="front-container">
-            
-            <Lightbox />
-            
+            <Form />
             </div>
             
             
@@ -17,4 +15,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Contact
