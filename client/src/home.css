@@ -1,11 +1,16 @@
 .front-container {
     height: 80vh;
     width: 100vw;
+    padding-top: 40px; 
     display: flex;
     align-items: center;
     justify-content: center ;
     
 
+}
+
+.front-container h1 {
+  padding: 20px
 }
 
 .home-container {
@@ -45,12 +50,19 @@ box-shadow:         0px 0px 22px 0px rgba(50, 50, 50, 0.75); */
 
 
 .title-text {
-  font-size: 50px
+  font-size: 50px;
 }
 
 hr {
   margin: 5px;
+  
 }
+
+.projects-box-title {
+  font-size: 40px
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .title-text {
@@ -82,17 +94,20 @@ box-shadow:         0px 0px 22px 0px rgba(50, 50, 50, 0.75); */
 }
 
 .down-arrow {
-  margin-top:-60px 
+  margin-top:-40px 
 }
   
 .front-container {
-  height: 75vh;
-  margin-top: 20px;
+  height: 80vh;
+  
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center ;
-  
-
 }
+
+.title-text{
+  padding-bottom: 20px; 
+}
+
 }

@@ -16,8 +16,8 @@ const Home = () => {
                     
                     <Typing>
                         <h1 className="title-text">
-                            Hello world! <br/>
-                            My name is Bradley Mulick
+                            HELLO WORLD!<br/>
+                            I'm Bradley Mulick
                         </h1>
                     </Typing> 
                     
@@ -26,8 +26,8 @@ const Home = () => {
                     <a href="/about"><button class="button-three">My Skills</button></a>
                     <Typing>
                         <div>
-                            <Typing.Delay ms={3330} />
-                            <h1 className="title-text">I'm a Web Developer</h1>
+                            <Typing.Delay ms={2530} />
+                            <h1 className="title-text">Web Developer</h1>
                         </div>
                     </Typing>
                     
@@ -36,8 +36,9 @@ const Home = () => {
                 </div>
                 
             </div>
-            <a href="#work-display"><img className="down-arrow" src="https://img.icons8.com/officel/50/000000/expand-arrow.png" /></a>
-               
+            <a href="#work-display"><img className="down-arrow" src="https://img.icons8.com/officel/50/000000/expand-arrow.png" alt="arrow" /></a>
+            <hr className="front-divider"/>
+            <h2 className='projects-box-title'>Projects</h2>   
             <div className="work-container" id="work-display">
                 <div className="project-box">
                 <a href="http://www.jensenhowardart.com" target="_blank" rel="noopener noreferrer">

@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <div className="about">
             <div className="front-container">
+                
             <Form />
             </div>
             
