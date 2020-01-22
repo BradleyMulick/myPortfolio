@@ -5,7 +5,7 @@ import Form from './Form'
 const Contact = () => {
     return (
         <div className="about">
-            <div className="front-container">
+            <div className="contact-page">
                 
             <Form />
             </div>
