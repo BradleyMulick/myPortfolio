@@ -13,14 +13,19 @@ const Home = () => {
                     
             <div className="front-container">
                 <div className='socials-box'>
-                    <a href="https://github.com/BradleyMulick" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="github" /> </a> <br/>
-                    <a href="https://www.linkedin.com/in/bradley-mulick/" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-sharp/48/000000/linkedin.png" alt="linked in" /> </a>
+                    <div className="social-icon">
+                        <a href="https://github.com/BradleyMulick" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="github" /> </a> 
+                    </div>
+                    <div className="social-icon">
+                        <a href="https://www.linkedin.com/in/bradley-mulick/" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-sharp/48/000000/linkedin.png" alt="linked in" /> </a>    
+                    </div>
+                    
                 </div>
                 <div class="typewriter">
                     
                     <Typing>
                         <h1 className="title-text">
-                            HELLO WORLD!<br/>
+                            Hello, World!<br/>
                             I'm Bradley Mulick
                         </h1>
                     </Typing> 
@@ -42,8 +47,8 @@ const Home = () => {
             </div>
             <a href="#work-display"><img className="down-arrow" src="https://img.icons8.com/officel/50/000000/expand-arrow.png" alt="arrow" /></a>
             <hr className="front-divider"/>
-            <h2 className='projects-box-title'>Projects</h2>   
-            <div className="work-container" id="work-display">
+            <h2 className='projects-box-title' id="work-display">Projects</h2>   
+            <div className="work-container" >
                 <div className="project-box">
                 <a href="http://www.jensenhowardart.com" target="_blank" rel="noopener noreferrer">
                     <h2>Jensen Howard Art</h2>
