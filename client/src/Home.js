@@ -12,6 +12,10 @@ const Home = () => {
                 
                     
             <div className="front-container">
+                <div className='socials-box'>
+                    <a href="https://github.com/BradleyMulick" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="github" /> </a> <br/>
+                    <a href="https://www.linkedin.com/in/bradley-mulick/" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-sharp/48/000000/linkedin.png" alt="linked in" /> </a>
+                </div>
                 <div class="typewriter">
                     
                     <Typing>
