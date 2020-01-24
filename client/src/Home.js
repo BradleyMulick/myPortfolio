@@ -33,10 +33,11 @@ const Home = () => {
                     
                     <a href="#work-display"><button class="button-three">Projects</button></a>
                     <a href="/about"><button class="button-three">My Skills</button></a>
+                    {/* <a href="https://docs.google.com/document/d/1gh6Y1HLdbYXL55bVx5L-MRAfj0JzO4tX09CNmILgmzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><button class="button-three">Resume</button></a> */}
                     <Typing>
                         <div>
                             <Typing.Delay ms={2530} />
-                            <h1 className="title-text">Web Developer</h1>
+                            <h1 className="title-text">Fullstack Web Developer</h1>
                         </div>
                     </Typing>
                     
