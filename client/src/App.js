@@ -15,11 +15,11 @@ function App() {
       <Navbar />
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <SimpleReactLightbox >
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
       </SimpleReactLightbox>
     </div>
   );

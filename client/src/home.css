@@ -1,16 +1,14 @@
 .front-container {
-    height: 80vh;
-    width: 100vw;
-    padding-top: 40px; 
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    
-
+  height: 80vh;
+  width: 100vw;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .front-container h1 {
-  padding: 20px; ;
+  padding: 20px;
 }
 
 .home-container {
@@ -19,35 +17,34 @@
 }
 
 .work-container {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 auto;
-    width: 85vw;
-    height: auto;
-    margin-bottom: 10px; 
-    padding-top: 40px
-    /* -webkit-box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 0.75);
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  width: 85vw;
+  height: auto;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  /* -webkit-box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 0px 22px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 0px 22px 0px rgba(50, 50, 50, 0.75); */
 }
 
 .project-box {
-    display: inline-block;
-    margin: 30px auto;
-    width: 40vw;
-    height: 50vh;
-    
-    -webkit-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    7px 7px 21px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+  display: inline-block;
+  margin: 30px auto;
+  width: 40vw;
+  height: 50vh;
+
+  -webkit-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
 }
 
 .down-arrow {
-  margin-bottom:20px;
-  padding-bottom:60px  
+  margin-bottom: 20px;
+  padding-bottom: 60px;
 }
-
 
 .title-text {
   font-size: 50px;
@@ -55,27 +52,39 @@ box-shadow:         0px 0px 22px 0px rgba(50, 50, 50, 0.75); */
 
 hr {
   margin: 5px;
-  
 }
 
 .projects-box-title {
-  font-size: 40px
+  font-size: 40px;
 }
 
 .socials-box {
   display: block;
   position: fixed;
-  right:20px;
-   top:40vh;
+  right: 20px;
+  top: 40vh;
 }
 
 .social-icon {
   display: block;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .project-box {
+    display: inline-block;
+    margin: 30px auto;
+    margin-bottom: 10px;
+    height: 40vh;
+  }
+
+  .work-container {
+    margin-bottom: 10vh;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .title-text {
-    font-size: 30px
+    font-size: 30px;
   }
 
   .work-container {
@@ -85,49 +94,48 @@ hr {
     margin: 0 auto;
     width: 100vw;
     height: auto;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     /* -webkit-box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 0px 22px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 0px 22px 0px rgba(50, 50, 50, 0.75); */
-}
+  }
 
-.project-box {
-  display: inline-block;
-  margin: 30px auto;
-  width: 80vw;
-  height: 40vh;
-  
-  -webkit-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    7px 7px 21px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         7px 7px 21px 0px rgba(50, 50, 50, 0.75);
-}
+  .project-box {
+    display: inline-block;
+    margin: 30px auto;
+    width: 80vw;
+    height: 40vh;
 
-.down-arrow {
-  margin-top:-40px 
-}
-  
-.front-container {
-  height: 80vh;
-  
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-}
+    -webkit-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+  }
 
-.title-text{
-  padding-bottom: 20px; 
-}
+  .down-arrow {
+    margin-top: -40px;
+  }
 
-.socials-box{
-  display: block;
-  position: absolute;
-  right:20px;
-   top:5vh;
-}
+  .front-container {
+    height: 80vh;
 
-.social-icon {
-  display: inline-block;
-}
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .title-text {
+    padding-bottom: 20px;
+  }
+
+  .socials-box {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 5vh;
+  }
+
+  .social-icon {
+    display: inline-block;
+  }
 }

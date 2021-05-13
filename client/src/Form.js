@@ -10,20 +10,14 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs.sendForm('gmail', 'template_Yzm4Y8al', e.target, 'user_awbCOK1q1pP2PHb4vILtT')
-      .then((result) => {
-          console.log(result.text);
-            if(alert('You message was sent!')){}
-            else    window.location.reload(); 
-      }, (error) => {
-          console.log(error.text);
-      });
+
   }
 
-  
+
 
   return (
     <form className="contact-form" onSubmit={sendEmail}>
-    <h1>Send me a message!</h1>
+      <h1>Send me a message!</h1>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
       <input type="text" name="user_name" />
